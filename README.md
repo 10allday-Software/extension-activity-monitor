@@ -1,6 +1,10 @@
-# Extension Activity Monitor [![Build Status](https://travis-ci.org/mozilla/extension-activity-monitor.svg?branch=master)](https://travis-ci.org/mozilla/extension-activity-monitor) [![Coverage Status](https://coveralls.io/repos/github/mozilla/extension-activity-monitor/badge.svg?branch=master)](https://coveralls.io/github/mozilla/extension-activity-monitor?branch=master)
+# Extension Activity Monitor
 
 This is a privileged Firefox extension that uses the `activityLog` API to monitor the activities of the other installed extensions.
+
+[![CircleCI](https://circleci.com/gh/mozilla/extension-activity-monitor.svg?style=svg)](https://circleci.com/gh/mozilla/extension-activity-monitor)
+[![codecov](https://codecov.io/gh/mozilla/extension-activity-monitor/branch/master/graph/badge.svg)](https://codecov.io/gh/mozilla/extension-activity-monitor)
+[![devDependency Status](https://david-dm.org/mozilla/extension-activity-monitor/dev-status.svg)](https://david-dm.org/mozilla/extension-activity-monitor#info=devDependencies)
 
 ## Installation
 
@@ -33,3 +37,7 @@ $ web-ext run -f /path/to/firefox-nightly/firefox
   - Click on "Load Temporary Add-on" button, then go to `src` directory of your cloned/ downloaded repository and choose `manifest.json` file.
 
 The extension will be loaded temporarily in the browser.
+
+## Get Involved
+
+To get involved with Extension Activity Monitor, you can file bugs or issues, request features and even fix bugs or issues. For more information, check out our [contributing section](https://github.com/mozilla/extension-activity-monitor/blob/master/CONTRIBUTING.md).
